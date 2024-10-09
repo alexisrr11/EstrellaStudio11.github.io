@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstrellaStudio</title>
+    <link rel="icon" href="images/star-solid-24.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="incio">
+        <img src="images/menu.svg" alt="" class="hamburguesa">
+        <nav class="menu-navegacion">
+            <a href="#incio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#modelos">Modelos</a>
+            <a href="#contactos">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+            <p class="copy">EstrellaStudio11</p>
+        </div>
+    </header>
+    <main>
+        <secition class="services-contenedor" id="servicio">
+            <h2 class="subtitulo"><br>Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="images/00Diseno-Grafico-en-A-Coruna-3.jpg" alt="">
+                <div class="checklist-servicio">
+
+                    <div class="service">
+                        <h3 class="n-service"><spam class="number">1</spam>Diseños:</h3>
+                        <p>Buscamos en nuestros diseños que sean de interes
+                            para el público, destacando ofertas,
+                            nuevos productos o con información necesaria para trasmitir al léctor 
+                            la certeza y calidad de nuestro trabajo</p>
+                    </p>
+                    </div>
+
+                    <div class="service">
+                        <h3 class="n-service"><spam class="number">2</spam>Tarjetas:</h3>
+                        <p>Las tarjetas personales las creamos 
+                        basandonos en sus necesidades, logotipos preexistentes y gustos personales</p>
+                    </div>
+
+                    <div class="service">
+                        <h3 class="n-service"><spam class="number">3</spam>Redes:</h3>
+                        <p>A sus redes le Añadimos los mejores posteos con diseños totalmente personalizados</p>
+                    </div>
+                    </div>
+            </div>
+        </secition>
+        <section class="galery" id="portafolio">
+            <div class="ful-img" id="fulImgBox">
+                <img src="images/orianteojos.jpeg" alt="" id="fulImg">
+                <span onclick="closeImg()">x</span>
+            </div>
+
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galery">
+                    <img src="images/2Alicia.jpeg" onclick="openFulIimg(this.src)" alt=""class="img-galeria">
+                    <img src="images/2panaderia.jpeg"onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/2salon de belleza.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/mixtura1.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/recetario.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/tarjetasdecumple.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/modelo.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/restomenu.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                    <img src="images/4frambuesa.jpeg" onclick="openFulIimg(this.src)"  alt=""class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="images/cruz.svg" alt="" class="close">
+            <img src="images/orianteojos.jpeg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="modelos">
+            <h2 class="subtitulo">Modelos :</h2>
+            <section class="experts">
+                <div class="cont-experts">
+                    <img src="images/2saumerios.jpeg" alt="">
+                    <h3 class="n-experts">Folletos</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="images/juli.jpeg" alt="">
+                    <h3 class="n-experts">Tarjetas</h3>
+                </div>
+                <div class="cont-experts">
+                    <img src="images/mixtura3.jpeg" alt="">
+                    <h3 class="n-experts">QR</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contactos">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Oriana O'lery</h2>
+                <b><p>¿Estas listo para tupróximo proyecto? ¡Genial!<br>
+                    Enviame un whatsapp o contactame por instagram.</b><br>
+                    Somos expertos en la creacion de tus sueños</p>
+            </div>
+            <div class="social-media">
+                <a href="https://wa.me/541164329783" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="https://www.instagram.com/estrella.studio11" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script> 
+</body>
+</html>
