@@ -224,8 +224,6 @@ header {
     max-width: 350px;
 }
 
-
-
 .show {
     transform: translate(0);
 }
@@ -343,8 +341,6 @@ footer {
     background: #fff;
     margin-bottom: 60px; 
 }
-
-/* minuto 45 del video */
 
 @media screen and (max-width: 800px) {
     .menu-navegacion {
